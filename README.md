@@ -2,7 +2,6 @@
 
 Why did revenue fall when the order count barely moved? · Power BI · Power Query · DAX
 
-[![Open Live Dashboard](https://img.shields.io/badge/Open-Live%20Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://app.powerbi.com/view?r=REPLACE_WITH_PUBLISH_TO_WEB_LINK)
 [![Download Infographic](https://img.shields.io/badge/Download-Infographic%20(JPG)-1A2A3A?style=for-the-badge&logo=googledrive&logoColor=white)](assets/Infographic_AndesRetail_EN.jpg)
 [![Download .pbix](https://img.shields.io/badge/Download-.pbix%20file-F2C811?style=for-the-badge&logo=microsoft&logoColor=black)](powerbi/Proyecto_Power_BI_Andes_Retail_Group.pbix)
 
