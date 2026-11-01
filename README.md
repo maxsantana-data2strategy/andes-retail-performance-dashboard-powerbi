@@ -3,7 +3,7 @@
 Why did revenue fall when the order count barely moved? · Power BI · Power Query · DAX
 
 [![Open Live Dashboard](https://img.shields.io/badge/Open-Live%20Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://app.powerbi.com/view?r=REPLACE_WITH_PUBLISH_TO_WEB_LINK)
-[![Download Infographic](https://img.shields.io/badge/Download-Infographic%20(JPG)-1A2A3A?style=for-the-badge&logo=googledrive&logoColor=white)](assets/Infographic_AndesRetail_ES.jpg)
+[![Download Infographic](https://img.shields.io/badge/Download-Infographic%20(JPG)-1A2A3A?style=for-the-badge&logo=googledrive&logoColor=white)](assets/Infographic_AndesRetail_EN.jpg)
 [![Download .pbix](https://img.shields.io/badge/Download-.pbix%20file-F2C811?style=for-the-badge&logo=microsoft&logoColor=black)](powerbi/Proyecto_Power_BI_Andes_Retail_Group.pbix)
 
 ## 📸 Dashboard
@@ -12,14 +12,14 @@ Why did revenue fall when the order count barely moved? · Power BI · Power Que
 <tr>
 <td width="50%" valign="top">
 
-**Vista Overview** — tendencia, categorías, países
+**Vista Overview** — revenue trend, categories, countries
 
 ![Vista Overview](assets/dashboard_overview.png)
 
 </td>
 <td width="50%" valign="top">
 
-**Vista Detalle** — segmentos, estacionalidad, síntesis
+**Vista Detalle** — segments, seasonality, synthesis
 
 ![Vista Detalle](assets/dashboard_detalle.png)
 
@@ -28,10 +28,10 @@ Why did revenue fall when the order count barely moved? · Power BI · Power Que
 </table>
 
 <details>
-<summary>📊 Ver la infografía completa del proyecto</summary>
+<summary>📊 View the full project infographic</summary>
 <br>
 
-![Infographic](assets/Infographic_AndesRetail_ES.jpg)
+![Infographic](assets/Infographic_AndesRetail_EN.jpg)
 
 </details>
 
@@ -167,7 +167,7 @@ andes-retail-performance-dashboard-powerbi/
 │   ├── Andes_Retail_Group_2024_2025.csv
 │   └── Andes_Retail_Group_2024_2025.xlsx
 ├── assets/
-│   ├── Infographic_AndesRetail_ES.jpg
+│   ├── Infographic_AndesRetail_EN.jpg
 │   ├── dashboard_overview.png
 │   └── dashboard_detalle.png
 ├── scripts/
@@ -179,7 +179,7 @@ andes-retail-performance-dashboard-powerbi/
 - **Open the dashboard** — `powerbi/Proyecto_Power_BI_Andes_Retail_Group.pbix` in Power BI Desktop. The data source points to the CSV/XLSX in `data/`; if the path breaks after cloning, repoint it via *Transform Data → Data Source Settings*.
 - **Explore without Power BI** — both dashboard views are exported as static images in `assets/`, and the full narrative is reproduced above.
 - **Reuse the source data** — `data/` carries the same 5,000-row table in both CSV and XLSX; schema is documented below.
-- **Regenerate the infographic** — `scripts/make_infographic.py` builds `assets/Infographic_AndesRetail_ES.jpg` from the dashboard exports with Pillow (`pip install pillow`).
+- **Regenerate the infographic** — `scripts/make_infographic.py` builds `assets/Infographic_AndesRetail_EN.jpg` from the dashboard exports with Pillow (`pip install pillow`).
 
 ### Dataset schema
 
